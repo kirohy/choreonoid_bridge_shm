@@ -6,7 +6,7 @@ set(CMAKE_BUILD_TYPE Release)
 
 # find_package(Boost REQUIRED COMPONENTS system)
 find_package(catkin REQUIRED COMPONENTS
-  trans_vm)
+  jaxon_shm_controller)
 find_package(choreonoid REQUIRED)
 
 catkin_package()
@@ -14,7 +14,6 @@ catkin_package()
 include_directories(
   ${catkin_INCLUDE_DIRS}
   ${CHOREONOID_INCLUDE_DIRS}
-  ${trans_vm_SOURCE_PREFIX}/include
   )
 
 link_directories(

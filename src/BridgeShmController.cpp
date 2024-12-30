@@ -6,9 +6,8 @@
 #include <iostream>
 #include <fstream>
 
-#include "../controller/system_shm.c"
-#include "../controller/myshm.h"
-#include "../controller/servo_shm.h"
+#include <jaxon_shm_controller/system_shm.h>
+#include <jaxon_shm_controller/servo_shm.h>
 
 using namespace cnoid;
 

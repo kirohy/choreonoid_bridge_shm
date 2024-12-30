@@ -10,6 +10,6 @@
 
   <buildtool_depend>catkin</buildtool_depend>
   <depend>choreonoid</depend>
-  <depend>trans_vm</depend>
+  <depend>jaxon_shm_controller</depend>
 
 </package>
